@@ -34,7 +34,7 @@ const CourseApplyPageCourseContent = () => {
 
 
         <div className="h-max w-full p-5 md:p-10">
-            <h1 className='text-2xl md:text-3xl lg:text-4xl text-zinc-900 mb-5'>Introduction & overview of TikTok Shop</h1>
+            <h1 className='text-2xl md:text-3xl lg:text-4xl text-zinc-900 mb-5'>Introduction & overview of {currentClickedCourseData.courseName}</h1>
             {
                 currentClickedCourseData?.courseContent?.map((eachList)=>{
                     return (
