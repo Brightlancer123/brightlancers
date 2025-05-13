@@ -105,21 +105,21 @@ const Navbar = () => {
     return (
         <header className=' custom_glassy_effect            w-full overflow-hidden overflow-x-hidden fixed top-0 left-0 z-[1000] '>
 
-            <div className='h-32 sm:h-28  w-full  flex justify-between px-4 sm:px-7 '>
+            <div className='sm:h-32 h-24  w-full py-0  flex justify-between px-4 sm:px-7 '>
 
 
 
 
 
                 {/*  The logo of Navbar */}
-                <div className="h-32 w-56 flex items-center select-none mb-5 ">
+                <div className=" w-max flex items-center select-none mb-5  ">
 
                     <Image
                         src={Logo}
                         alt='Logo of Brightlancer'
                         height={400}
                         width={800}
-                        className='h-[100%] w-max '
+                        className='h-[120%] w-max mt-7 ml-4'
                     />
 
                 </div>

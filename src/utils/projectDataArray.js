@@ -20,9 +20,9 @@ import {
 
 const projectDataArray = [
     {
-        projectName:"Empovering Youth of Waziristan",
+        projectName:"Empowering Youth of Waziristan",
         projectUrl:ImpYouthWaziristan,
-        projectDesc:"Brightlancer Academy empowers Waziristan youth with free e-commerce training, enabling online earning through platforms like Amazon and Shopify."
+        projectDesc:"Brightlancer Techonologies empowers Waziristan youth with free e-commerce training, enabling online earning through platforms like Amazon and Shopify."
     },
     {
         projectName:"NAVTTC Islamabad Amazon VA Project",

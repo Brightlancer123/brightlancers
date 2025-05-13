@@ -12,7 +12,8 @@ import {
     scienceAndTech,
     DistrictYouthOffice,
     GovtKPK,
-    llcFoundation
+    // llcFoundation,
+    usCollaberation1
 } from '@/utils/Images.js'
 
 
@@ -50,7 +51,8 @@ const HomeOffer = () => {
         scienceAndTech,
         DistrictYouthOffice,
         GovtKPK,
-        // llcFoundation
+        // llcFoundation,
+        usCollaberation1
     ]
 
 
@@ -216,14 +218,14 @@ const HomeOffer = () => {
                     <p className='text-lg md:text-xl text-zinc-700 font-medium pl-2 text-center md:text-start'>We proudly collaborate with government bodies and private organizations in our mission to make Pakistan a leading eCommerce hub, starting from the grassroots in regions like Bannu.</p>
                 </div>
 
-                <div className="h-max w-full overflow-x-hidden flex flex-wrap justify-center gap-4">
+                <div className="h-max w-full overflow-x-hidden flex flex-wrap justify-center gap-4 overflow-hidden">
 
                     {
                         collaberatedIntArray.map((eachLogo, index) => {
                             return (
                                 <div
                                     key={index}
-                                    className="h-40 w-40 border-1 border-zinc-200 flex justify-center items-center">
+                                    className="h-40 w-40 border-1 border-zinc-200 flex justify-center items-center p-2">
                                     <Image
                                         src={eachLogo}
                                         height={300}

@@ -57,7 +57,7 @@ const AboutProject = () => {
                                     className='rounded-md'
                                 />
                                 <div className="">
-                                    <h1 className='text-2xl md:text-3xl text-orange-500 font-extrabold mb-5'>{eachProject.projectName}</h1>
+                                    <h1 className='text-xl w-[110%] md:text-3xl text-orange-500 mb-5 font-extrabold '>{eachProject.projectName.toUpperCase()}</h1>
                                     <p className='text-lg'>{eachProject.projectDesc}</p>
                                 </div>
                             </div>

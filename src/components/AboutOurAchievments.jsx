@@ -27,7 +27,7 @@ const AboutOurAchievments = () => {
         "Saqib Azhar was recognized as a high achiever in the National Youth Awards.",
         "In KPK, Brightlancers has partnered with the United Nations on a collaborative project to empower youth.",
         "Brightlancers' notable contributions and accomplishments have earned them national and international recognition.",
-        "Introduced Brightlancers Academy’s innovative training programs focusing on digital skills and eCommerce in Pakistan.",
+        "Introduced Brightlancers Technologies innovative training programs focusing on digital skills and eCommerce in Pakistan.",
         "Brightlancers actively participates as Board Patrons of Youth Parliament & Members of Youth General Assembly.",
         "Brightlancers has partnered with over 150 organizations to provide valuable opportunities for youth in Pakistan.",
         "The Brand of the Year Award for Best eCommerce Skill Learning Platform in Pakistan has been awarded to Brightlancers.",

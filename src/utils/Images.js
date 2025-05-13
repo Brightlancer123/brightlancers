@@ -36,6 +36,7 @@ const scienceAndTech="https://upload.wikimedia.org/wikipedia/en/f/f4/UST_Bannu.j
 const DistrictYouthOffice="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQypkrMYblFc684MuuNv1sAK2RAtE0q6UjpuQ&s"
 const GovtKPK="https://upload.wikimedia.org/wikipedia/commons/c/c9/KP_logo.png"
 const llcFoundation="https://res.cloudinary.com/dop329ono/image/upload/v1747036684/llcFormation_f98f0l.jpg"
+const usCollaberation1="https://res.cloudinary.com/dop329ono/image/upload/v1747116466/UsIndustriesCollaberation_rdw45h.jpg"
 
 const ImpYouthWaziristan= "https://res.cloudinary.com/dop329ono/image/upload/v1746711943/testImg2_z6g7rp.jpg"
 const GPGCwomenProject="https://res.cloudinary.com/dop329ono/image/upload/v1747036686/USTBProject2_dwydbi.jpg"
@@ -90,6 +91,7 @@ export {
     DistrictYouthOffice,
     GovtKPK,
     llcFoundation,
+    usCollaberation1,
     ImpYouthWaziristan,
     GPGCwomenProject,
     UstbProject,

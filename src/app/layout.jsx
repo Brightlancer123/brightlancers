@@ -25,27 +25,27 @@ const geistMono = Geist_Mono({
 
 
 export const metadata = {
-  title: 'Brightlancer Academy – Empowering E-Commerce Excellence in Bannu',
-  description: 'Brightlancer Academy offers comprehensive e-commerce training programs in Bannu, Pakistan...',
-  keywords: ['Brightlancer Academy', 'E-commerce Training Bannu', "Brightlancers ecommerce", "Brightlancers bannu", "Ecommerce Academy in bannu", "Brightlancer", "Brightlancer website"],
+  title: 'Brightlancer Technologies – Empowering E-Commerce Excellence in Bannu',
+  description: 'Brightlancer Technologies offers comprehensive e-commerce training programs in Bannu, Pakistan...',
+  keywords: ['Brightlancer Technologies', 'E-commerce Training Bannu', "Brightlancers ecommerce", "Brightlancers bannu", "Ecommerce Technologies in bannu", "Brightlancer", "Brightlancer website"],
 
   authors: [
-    { name: 'Brightlancer Academy', url: 'https://www.facebook.com/...' },
+    { name: 'Brightlancer Technologies', url: 'https://www.facebook.com/...' },
   ],
-  creator: 'Brightlancer Academy',
-  publisher: 'Brightlancer Academy',
+  creator: 'Brightlancer Technologies',
+  publisher: 'Brightlancer Technologies',
 
   openGraph: {
-    title: 'Brightlancer Academy – Empowering E-Commerce Excellence in Bannu',
-    description: 'Join Brightlancer Academy...',
+    title: 'Brightlancer Technologies – Empowering E-Commerce Excellence in Bannu',
+    description: 'Join Brightlancer Technologies...',
     url: 'https://brightlancer.vercel.app', // ✅ Use your live Vercel domain here
-    siteName: 'Brightlancer Academy',
+    siteName: 'Brightlancer Technologies',
     images: [
       {
         url: '/images/Logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Brightlancer Academy Logo',
+        alt: 'Brightlancer Technologies Logo',
       },
     ],
     locale: 'en_PK',
@@ -54,8 +54,8 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Brightlancer Academy – Empowering E-Commerce Excellence in Bannu',
-    description: 'Brightlancer Academy offers...',
+    title: 'Brightlancer Technologies – Empowering E-Commerce Excellence in Bannu',
+    description: 'Brightlancer Technologies offers...',
     images: ['/images/Logo.webp'],
   },
 

@@ -8,26 +8,26 @@ import ContactSocialLinks from '../../components/ContactSocialLinks'
 
 
 export const metadata = {
-  title: 'Contact Us – Brightlancer Academy, Bannu',
-  description: 'Get in touch with Brightlancer Academy for inquiries about our e-commerce courses, admissions, or other services. Visit us at Shadman Plaza, Bannu or contact us online.',
+  title: 'Contact Us – Brightlancer Technologies, Bannu',
+  description: 'Get in touch with Brightlancer Technologies for inquiries about our e-commerce courses, admissions, or other services. Visit us at Shadman Plaza, Bannu or contact us online.',
   keywords: [
-    'Contact Brightlancer Academy',
-    'E-commerce Academy Bannu',
+    'Contact Brightlancer Technologies',
+    'E-commerce Technologies Bannu',
     'Freelance Training Bannu',
     'Brightlancer Contact Information',
   ],
 
   openGraph: {
-    title: 'Contact Us – Brightlancer Academy',
-    description: 'Need help or more information? Get in touch with Brightlancer Academy, your go-to source for e-commerce training in Bannu.',
+    title: 'Contact Us – Brightlancer Technologies',
+    description: 'Need help or more information? Get in touch with Brightlancer Technologies, your go-to source for e-commerce training in Bannu.',
     url: 'https://brightlancer.vercel.app/contact',
-    siteName: 'Brightlancer Academy',
+    siteName: 'Brightlancer Technologies',
     images: [
       {
         url: '/images/Logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Contact Brightlancer Academy',
+        alt: 'Contact Brightlancer Technologies',
       },
     ],
     locale: 'en_PK',
@@ -36,8 +36,8 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'Contact Us – Brightlancer Academy, Bannu',
-    description: 'Reach out to Brightlancer Academy for any questions about our courses or services. Visit us in Bannu or contact us online.',
+    title: 'Contact Us – Brightlancer Technologies, Bannu',
+    description: 'Reach out to Brightlancer Technologies for any questions about our courses or services. Visit us in Bannu or contact us online.',
     images: ['/images/Logo.webp'],
   },
 };

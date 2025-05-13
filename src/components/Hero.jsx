@@ -104,7 +104,7 @@ const Hero = () => {
             {/* Text Section (on bottom for small, left for md+) */}
             <div className="w-full lg:w-1/2 p-5  sm:pt-10 sm:pl-18  xl:mt-10 text-zinc-100 text-center sm:text-start">
                 <h1 className="font-extrabold text-2xl lg:text-4xl mb-5 text-[#fd6a0e]">
-                    Brightlancer Technologies
+                    BRIGHTLACNERS TECHNOLOGIES
                 </h1>
                 <p className="font-sans font-medium text-lg lg:text-xl mb-10 text-shadow-zinc-400">
                     Brightlancer Technologies is a leading e-skills and digital education platform dedicated to empowering the youth of Pakistan. Focused on practical learning and globally recognized certifications, Brightlancer has equipped over 10,000 students with in-demand digital skills—enabling them to earn, grow, and compete in international markets. Our mission is to unlock economic opportunities through skill development, innovation, and career-oriented training.
