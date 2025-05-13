@@ -9,11 +9,13 @@ import { NextResponse } from 'next/server';
 import GmailSmtpEmailing from '@/utils/GmailSmtpEmailing';
 import ResendEmailing from '@/utils/ResendEmailing';
 
-// Todos
 
-// make file for courseApplySchema of zod in separate file
-// make resend in separate file
-// make nodemailer config and code in separate file
+
+
+
+
+
+
 
 
 
@@ -80,7 +82,7 @@ export async function POST(req) {
 
   const {
     username, fatherName, cnicNo, email, password, phoneNo,
-    gender, country, city, fullAddress, refferedBy, agreeOrNot, courseId
+    gender, country, city, fullAddress, refferedBy, courseId
   } = body;
 
 
@@ -97,10 +99,10 @@ export async function POST(req) {
 
 // check that is course is present on numbher or not
 
-//   const existing = await CourseApplyModel.findOne({ phoneNo });
-//   if (existing) {
-//     return Response.json({ success: false, msg: "Course already applied on this phoneNo" }, { status: 409 });
-//   }
+  const existing = await CourseApplyModel.findOne({ phoneNo });
+  if (existing) {
+    return Response.json({ success: false, msg: "Course already applied on this phoneNo" }, { status: 409 });
+  }
 
 
 

@@ -133,15 +133,21 @@ const CourseApplyForm = () => {
                 setApplyCourseData(response.data.courseApplyData)
 
                 // sending the req to backend to send the email to user
-                
-                
+
+
                 alert("Applied Successfully")
                 router.push("/courseApplySuccess")
-                
-                
-                
-                let emailSendingResponse= await axiosReqSender("post", "/api/sendEmail", {courseApplyId :response.data.courseApplyData?._id})
+
+
+
+                let emailSendingResponse = await axiosReqSender("post", "/api/sendEmail", { courseApplyId: response.data.courseApplyData?._id })
                 console.log(emailSendingResponse?.data)
+
+
+            } else if (response.data.success == false) {
+                alert(response.data.msg)
+            } else {
+                alert("Contact with brightlancer and tell him about error")
             }
 
 
